@@ -1,0 +1,56 @@
+doctype html
+html
+	head
+		title Lowest é Zika Brother
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet')
+		link(href='bootstrap/css/bootstrap.theme.min.css', rel='stylesheet')
+		link(href='css/main.css', rel='stylesheet')
+		link(href='css/font-awesome.min.css', rel='stylesheet')
+	body
+		include inc/header.pug
+		.jumbotron
+			.container
+				h1 Lowest
+				p As melhores fotos da porra toda
+
+		section.container#sobre.text-center
+			.row
+				h2 Sobre nós
+				p
+					| A Lowest é foda para um caralho
+					| Eles não param de tirar foto de carro
+					| e de tudo mais que possa existir
+		
+		section.container#fazemos.text-center
+			.row
+				h2 O que fazemos?
+				p
+					| A Lowest tira foto de carro.
+					| Mas tira algumas fotos de carro?
+					| Não, tira MUIIIIITA foto de carro!
+
+		section.container#contato.text-center
+			.row
+				h2 Entre em contato
+				.row
+					form.col-md-6.col-md-offset-3
+						input.form-control(type='text', id='nome', placeholder='Digite seu nome')
+						input.form-control(type='email', id='email', placeholder='Digite seu e-mail')
+						input.form-control(type='text', id='assunto', placeholder='Digite o assunto')
+						input.form-control(type='phone', id='telefone', placeholder='Digite seu telefone')
+						textarea.form-control(placeholder='Digite sua mensagem')
+
+						input.btn.btn-default.pull-right(type='submit')
+
+		footer
+			.container-fluid
+				.container
+					.row
+						.col-md-12.text-center
+							span.face
+								a(href="http://fb.com/thelowestcars")
+									i.fa.fa-facebook-square
+									p Siga-nos no Facebook
+

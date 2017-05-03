@@ -1,0 +1,47 @@
+.navbar {
+	min-height: 145px;
+	background-color: #000;
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+}
+.navbar-default .navbar-brand { padding: 20px 0; }
+.navbar-default .navbar-brand img { max-width: 100px; }
+
+.navbar-default .navbar-collapse { margin-top: 45px; }
+.navbar-default .navbar-collapse ul li a {
+	color: #fff;
+}
+.navbar-default .navbar-collapse ul li a:hover {
+	font-weight: bold;
+	color: #fff;
+}
+
+.jumbotron {
+	background-image: url(../img/banner2.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 480px;
+    color: #fff;
+}
+
+.form-control { margin: 10px 0; }
+section { padding: 60px 0; }
+footer a { color: #fff; }
+footer {
+	padding: 70px 0 50px;
+	background-color: #000;
+}
+.face {
+	color: #fff;
+	font-size: 1.7rem;
+}
+.face a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.face i {
+	font-size: 5rem;
+	margin-bottom: 10px;
+}
